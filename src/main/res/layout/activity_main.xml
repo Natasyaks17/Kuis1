@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.myapplicationkuisberita.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesawat Air Niugini Tergelincir ke Laut Saat Hendak Mendarat&#xA;&#xA;Jakarta, CNN Indonesia -- Pesawat Air Niugini tergelincir dan tercebur ke perairan dekat landasan bandar udara di Mikronesia, Jumat (28/9). Sebanyak 47 penumpang dan awak dilaporkan selamat dalam peristiwa ini. &#xA;&#xA;&quot;Pesawat itu mestinya melakukan pendaratan di landasan, tapi pesawat itu meluncur 130 meter lebih jauh dan jatuh ke laut,&quot; jelas Jimmy Emilio, General Manager Bandara Chuuk di Weno, Mikronesia seperti dikutip Reuters.&#xA;" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/air nugini" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:onClick="Button"
+        tools:layout_editor_absoluteY="205dp"
+        tools:layout_editor_absoluteX="280dp" />
+
+</android.support.constraint.ConstraintLayout>
